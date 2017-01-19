@@ -1,0 +1,37 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 15, 2017, 12:22:59 AM
+    Author     : mohamed
+*/
+
+.stack{
+    -fx-background-color: #78bec5;
+    -fx-background-radius:2.5em;
+}
+
+.stack:hover{
+    -fx-background-color: #3d4250;
+    -fx-cursor: hand;
+ /*   background-color: #ecaf4f; Yellow for O*/
+ /*   background-color: #dc685a; Red for X*/
+}
+
+.stackClicked {
+    -fx-background-color: #eea10b;
+    -fx-background-radius:2.5em;
+
+}
+
+.stack:pressed {
+    -fx-background-color: red;
+}
+
+.gameCenter{
+    -fx-padding: 10px;
+    -fx-hgap:10 ;
+    -fx-vgap:10;
+}
